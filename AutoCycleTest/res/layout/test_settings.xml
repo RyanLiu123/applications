@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:id="@+id/setting_button_layout"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingBottom="20dip"
+        android:paddingTop="20dip" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSaveClick"
+            android:text="@string/save"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cancle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onCancleClick"
+            android:text="@string/cancle" 
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/setting_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setting_button_layout"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/notice_title1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dip"
+                android:text="@string/setting_notice1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Function Video Test -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" >
+                <EditText
+                    android:id="@+id/category1_count"
+                    style="@style/setting_edit_style" />
+                <TextView
+                    android:id="@+id/category1_name"
+                    style="@style/setting_category_name_style"
+                    android:layout_toLeftOf="@+id/category1_count" />
+            </RelativeLayout>
+
+			<!-- Parallel Audio Vibrator BT WiFi -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" >
+                <EditText
+                    android:id="@+id/category2_count"
+                    style="@style/setting_edit_style" />
+                <TextView
+                    android:id="@+id/category2_name"
+                    style="@style/setting_category_name_style"
+                    android:layout_toLeftOf="@+id/category2_count" />
+            </RelativeLayout>
+
+			<!-- Parallel Camera Earpiece Prox Light Accele SD -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" >
+                <EditText
+                    android:id="@+id/category3_count"
+                    style="@style/setting_edit_style" />
+                <TextView
+                    android:id="@+id/category3_name"
+                    style="@style/setting_category_name_style"
+                    android:layout_toLeftOf="@+id/category3_count" />
+            </RelativeLayout>
+
+			<!-- Parallel LCD Earpiece Gyro Mag -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" >
+                <EditText
+                    android:id="@+id/category4_count"
+                    style="@style/setting_edit_style" />
+                <TextView
+                    android:id="@+id/category4_name"
+                    style="@style/setting_category_name_style"
+                    android:layout_toLeftOf="@+id/category4_count" />
+            </RelativeLayout>
+
+			<!-- Parallel LCD Earpiece GPS SD -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" >
+                <EditText
+                    android:id="@+id/category5_count"
+                    style="@style/setting_edit_style" />
+                <TextView
+                    android:id="@+id/category5_name"
+                    style="@style/setting_category_name_style"
+                    android:layout_toLeftOf="@+id/category5_count" />
+            </RelativeLayout>
+
+			<!-- Parallel Earpiece Prox Light Accele Vibrator BT WiFi -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" >
+                <EditText
+                    android:id="@+id/category6_count"
+                    style="@style/setting_edit_style" />
+                <TextView
+                    android:id="@+id/category6_name"
+                    style="@style/setting_category_name_style"
+                    android:layout_toLeftOf="@+id/category6_count" />
+            </RelativeLayout>
+            
+            <TextView
+                android:id="@+id/notice_title2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:paddingBottom="15dip"
+                android:text="@string/setting_notice2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            
+			<!-- Power cycle -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" >
+                <EditText
+                    android:id="@+id/category7_count"
+                    style="@style/setting_edit_style" />
+                <TextView
+                    android:id="@+id/category7_name"
+                    style="@style/setting_category_name_style"
+                    android:layout_toLeftOf="@+id/category7_count" />
+            </RelativeLayout>            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

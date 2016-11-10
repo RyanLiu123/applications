@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src/com/huaqin/autocycletest/AutoCycleTestService.java" />
+        <ignore path="src/com/huaqin/autocycletest/AutoCycleTestTesting.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/audio/TestAudio.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/bluetooth/TestBluetooth.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/camera/TestCamera.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/earpiece/TestEarpiece.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/gps/TestGps.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/lcd/TestLcd.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/sd/TestSd.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/sensor/TestALPSGsensor.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/sensor/TestGyrMSensor.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/vibrator/TestVibrator.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/video/TestVideo.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/wifi/TestWifi.java" />
+    </issue>
+    <issue id="SdCardPath">
+        <ignore path="src/com/huaqin/autocycletest/test/sd/TestSd.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/sd/sdPreCopy.java" />
+    </issue>
+    <issue id="UseSparseArrays">
+        <ignore path="src/com/huaqin/autocycletest/AutoCycleTestConfig.java" />
+        <ignore path="src/com/huaqin/autocycletest/AutoCycleTestService.java" />
+        <ignore path="src/com/huaqin/autocycletest/AutoCycleTestTesting.java" />
+        <ignore path="src/com/huaqin/autocycletest/ControlCenterActivity.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/FivethCategory.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/FourthCategory.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/SecondCategory.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/SixthCategory.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/ThirdCategory.java" />
+    </issue>
+    <issue id="Wakelock">
+        <ignore path="src/com/huaqin/autocycletest/AutoCycleTestTesting.java" />
+        <ignore path="src/com/huaqin/autocycletest/test/lcd/TestLcd.java" />
+    </issue>
+</lint>

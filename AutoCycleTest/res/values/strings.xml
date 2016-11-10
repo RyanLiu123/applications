@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoCycleTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">START</string>
+    <string name="setting">SETTING</string>
+    <string name="save">SAVE</string>
+    <string name="cancle">CANCLE</string>
+    <string name="testing_name">AutoCycleTesting</string>
+    <string name="result">Result:</string>
+    <string name="test_settings">Setting</string>
+
+    <string-array name="main_list_item">
+        <item>Function Video Test</item>
+        <item>Parallel Audio Vibrator BT WiFi</item>
+        <item>Parallel Camera Earpiece Prox Light Accele SD</item>
+        <item>Parallel LCD Earpiece Gyro Mag</item>
+        <item>Parallel LCD Earpiece GPS SD</item>
+        <item>Parallel Earpiece Prox Light Accele Vibrator BT WiFi</item>
+        <item>Power cycle</item>
+    </string-array>
+    <string-array name="item_test">
+        <item>Play Video</item>
+        <item>Play audio</item>
+        <item>Bluetooth</item>
+        <item>Wifi</item>
+        <item>Vibrator</item>
+        <item>Earpiece</item>
+        <item>SD Test</item>
+        <item>Camera</item>
+        <item>ALPS/G Sensor</item>
+        <item>LCD</item>
+        <item>Gyr/M Sensor</item>
+        <item>GPS Test</item>
+    </string-array>
+
+    <string name="video_title">VideoTest</string>
+    <string name="camera_title">CameraTest</string>
+    <string name="lcd_title">LCDTest</string>
+    <string name="casestate_begin">Testing</string>
+    <string name="casestate_finished">Done</string>
+    <string name="casestate_failed">Failed</string>
+    <string name="casestate_aborted">Aborted</string>
+    <string name="caseresult_none">None</string>
+    <string name="caseresult_success">Success</string>
+    <string name="setting_notice1">Please set item test count,every count lasting 30 minutes.</string>
+    <string name="setting_notice2">Please set cycle test count,every cycle test time based on the above test time.</string>
+
+</resources>

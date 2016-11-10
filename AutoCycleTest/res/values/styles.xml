@@ -1,0 +1,45 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+
+    <!-- Application theme. -->
+    <style name="AppThemeA" parent="AppBaseThemeA">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="AppBaseThemeA" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/my_actionbar_style</item>
+    </style>
+
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle</item>
+    </style>
+
+    <style name="AcBar_titleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="setting_edit_style">
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="setting_category_name_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

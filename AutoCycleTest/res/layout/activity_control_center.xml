@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlCenterActivity" >
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="20dip"
+        android:paddingBottom="40dip" >
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:text="@string/start"
+            android:onClick="handlerStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:text="@string/setting"
+            android:onClick="handlerSetting"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_above="@+id/button_layout"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>
